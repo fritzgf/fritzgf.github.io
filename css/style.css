@@ -1,8 +1,129 @@
-.logo {
-          text-indent: -99999;
-    background: url('logo.jpg');
-    width: 134px;
-    height: 132px;
-        
-          
-      }
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Sansita, "second choice", generic-family;
+}
+
+/*style for body*/
+
+body{
+    font-size: 20px;
+    background-color: #d8f;
+}
+#header{ position:absolute;
+    left: 150px;
+    
+
+}
+h2{text-align: center;
+    padding-top:10px;
+    
+}
+.form{
+
+background-color: rgba(200,200,200,.6);
+margin: .2em auto;
+border: 1px solid;
+border-radius: 5px;
+    
+    width: 170px;
+    height: 170px;
+    margin-bottom: 10px;   
+    text-align: center;
+    
+}
+
+
+#form1{
+background-color: rgba(200,200,200,.6);
+margin: .2em auto;
+border: 1px solid;
+border-radius: 5px;
+    padding-bottom: 10px;
+
+    width:300px;
+    height: 100px;
+    text-align: center;
+       
+}
+.p-form{
+    padding-top: 20px;
+
+}
+#img-pos{
+    display: flex;
+    justify-content: center;
+    margin-right: 2em;
+    
+    
+}
+
+
+
+#joe{
+    align-self:center;
+    
+}
+h1{
+    font-size: 30px;
+ 
+}
+
+h3{
+    margin-top: auto;
+}
+#p-form1{
+    
+}
+main{background-image:url(/wheater/images/plan-images/raindrops.jpg) ;
+    background-repeat: no-repeat;
+    
+        padding-bottom:20px;
+    background-size: cover;
+}
+#navbar{ position:absolute;
+    
+    bottom:-50px;
+  
+   
+}
+nav{
+    background-color: blue;
+    color:white;
+     padding:2px;
+    font-size:15px;
+    
+    
+    
+}
+
+#footer-pos{
+    margin-top: 20px;
+}
+li{
+    margin:3px;
+    
+   
+}
+li a{
+    
+    color:white;
+    font-size: 15px;
+
+}
+
+li{
+     display: inline;
+    
+    
+}
+
+a{
+    text-decoration: none;
+}
+

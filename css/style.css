@@ -89,18 +89,20 @@ main{background-image:url(/wheater/images/plan-images/raindrops.jpg) ;
 #navbar{ position:absolute;
     
     bottom:-50px;
+    
   
    
 }
 nav{
     background-color: blue;
     color:white;
-     padding:2px;
+     padding:1px;
     font-size:15px;
     
     
     
 }
+
 
 #footer-pos{
     margin-top: 20px;
@@ -114,6 +116,7 @@ li a{
     
     color:white;
     font-size: 15px;
+    
 
 }
 

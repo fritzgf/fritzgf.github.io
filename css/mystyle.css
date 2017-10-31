@@ -47,12 +47,11 @@ form{
     justify-content: center;
 }
 
-/*top and bottom, right and left*/
+/*top and bottom, left and right*/
 .form{
     background-color: lightblue;
     width: 400px;
     margin: 0 auto;
-    /*padding: 10px;*/
     border: 1px solid;
     
     
@@ -95,6 +94,10 @@ form{
     margin-top: 200px;
     padding-left: 20px;
     padding-right: 20px;
+    
+}
+
+
     
 }
 

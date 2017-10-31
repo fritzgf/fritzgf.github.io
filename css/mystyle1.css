@@ -1,11 +1,5 @@
 
-body{
-    background-color:red;
-}
-
-
-
-/*style for body
+/*style for body*/
 
 h1,
 h2,
@@ -23,9 +17,9 @@ body{
     left: 150px;
     
 
-}*/
+}
 
-/*h2 {
+h2 {
     padding-top: 10px;
 
 }
@@ -41,9 +35,9 @@ body{
     height: 210px;
 
     text-align: center;
-}*/
+}
 
-/*.content {}
+.content {}
 
 #form1 {
     background-color: rgba(200, 200, 200, .6);
@@ -74,9 +68,9 @@ h3 {
 
     margin-left: -50px;
 
-}*/
+}
 
-/*.p-form {
+.p-form {
     padding-top: 20px;
 
 }
@@ -157,9 +151,9 @@ li {
 
 a {
     text-decoration: none;
-}*/
+}
 
-/*@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 700px) {
     
     body {
         background-color: red;
@@ -186,4 +180,4 @@ a {
         position:absolute;
         
     }
-}*/
+}

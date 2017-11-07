@@ -169,7 +169,7 @@ h1 {
 * 750px viewport / 18px font = 41.67em
 ********************************/
 
-@media (min-width: 41.67em) {
+@media screen and (min-width: 41.67em) {
 	body {
 		font-size: 1.25em;
 	}
@@ -217,12 +217,13 @@ h1 {
 * 1200px viewport / 18px font = 66.7em
 ********************************/
 
-@media (min-width: 66.7em) {
+@media screen and (min-width: 66.7em) {
 	body {
 		font-size: 1.5vw;
 	}
     .wrapper{
-        max-width: 1000px;
+       max-width: 1000px;
+        
         margin:0 auto;
     }
  
@@ -232,8 +233,6 @@ h1 {
 	}
 	/*	Background Images - Use with large screens */
 	.page-header {
-          width: 100%;
-  height: 400px;
 background-image: url("../images/logo_150.png"),
       url("../images/banner_1200.jpg"),
       linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0));
@@ -243,10 +242,11 @@ background-image: url("../images/logo_150.png"),
   background-position: bottom right,
       left,
       right;
+       
 }
-	.page-nav li {
-		flex: 0 1 10%;
-	}
+	/*.page-nav li {
+		flex: 0 1 20%;
+	}*/
 	.main {
 		max-width: 80%;
 		padding-right: 2em;

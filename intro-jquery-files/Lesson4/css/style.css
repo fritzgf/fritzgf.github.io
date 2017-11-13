@@ -25,6 +25,7 @@ body {
 	margin:auto;
 	background:rgba(255,255,255,0.5);
 	box-shadow: 1px 1px 20px rgba(0,0,0,0.45);
+    padding-bottom: 10px;
 }
 
 .header {
@@ -277,5 +278,15 @@ body {
 	font-weight: normal;
 	color:inherit;
 }
+.footer ul{
+    display:flex;
+    list-style: none;
+    justify-content: space-around;
+    padding:0;
+    align-items: center;
+    height:30px;
+    margin-top:10px;
+}
+
 
 

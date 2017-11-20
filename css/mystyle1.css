@@ -25,7 +25,16 @@ h2 {
     padding-left: 1em;
 }
 
-.form {
+.box1 {
+    background-color: rgba(200, 200, 200, .6);
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 2em;
+
+}
+
+.box2 {
 
     background-color: rgba(200, 200, 200, .6);
 
@@ -38,18 +47,8 @@ h2 {
     text-align: center;
 }
 
-.content {}
 
-#form1 {
-    background-color: rgba(200, 200, 200, .6);
-    border: 1px solid;
-    border-radius: 5px;
-    text-align: center;
-    margin-top: 2em;
-
-}
-
-#form2 {
+.box3 {
     background-color: rgba(200, 200, 200, .6);
     border: 1px solid;
     border-radius: 5px;
@@ -130,7 +129,8 @@ nav {
     margin-bottom: 6em;
 
 }
-ul{
+
+ul {
     text-align: center;
 }
 
@@ -160,7 +160,7 @@ a {
 
 @media only screen and (min-width: 700px) {
 
-    #form2 {
+    .box3 {
         display: block;
         width: 20%;
 
@@ -171,16 +171,16 @@ a {
         justify-content: space-around;
     }
 
-    .form {
+    .box2 {
         width: 20%;
     }
-    #form1 {
+    .box1 {
         margin-top: 0;
         width: 20%;
     }
     #navbar {
         position: static;
-        
+
 
     }
 }

@@ -1,12 +1,14 @@
 <!doctype html>
 <html lang="en-us">
- <head>
+
+<head>
     <meta charset="UTF-8">
     <title>Franklin, ID | Weather Info</title>
     <meta name="description" content="Short Description of the page.">
     <meta name="viewport" content="width=device-width">
 
-    <link rel="stylesheet" type="text/css" href="/css/mystyle1.css">
+    <link rel="stylesheet" type="text/css" href="../css/mystyle1.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
 </head>
 
@@ -34,11 +36,12 @@
             <div id="navbar">
                 <nav>
                     <ul>
-                        <li> <a href="/index.html"> Home </a></li>
-                        <li> <a href="/wheater/franklin.html" title=" Franklin Idaho Weather"> Franklin</a></li>
-                        <li> <a href="/wheater/greenville.html" title=" Greenville South Carolina Weather"> Greenville</a></li>
-                        <li> <a href="springfield.html" title=" Srpingfield Ilinois Weather"> </a> Springfield</li>
+                        <li> <a href="../index.html"> Home </a></li>
+                        <li> <a href="../wheater/franklin.html" title=" Franklin Idaho Weather"> Franklin</a></li>
+                        <li> <a href="../wheater/greenville.html" title=" Greenville South Carolina Weather"> Greenville</a></li>
+                        <li> <a href="/springfield.html" title=" Srpingfield Ilinois Weather"> </a> Springfield</li>
                         <li> <a href="search"> </a> Search</li>
+                        <li> <a href="../json-weather/curent-sample-weather.html"> </a> Current Weather</li>
                     </ul>
 
 
@@ -49,38 +52,40 @@
 
         <main>
 
-            <section class="summary sunny">
+            <section class="summary_sunny">
 
                 <h2> Franklin, ID</h2>
 
                 <div class="content">
 
 
-                    <div id="form1">
+                    <div class="box1">
                         <h3>Current Conditions</h3>
 
 
                         <p id="p-form1">
-                            Wind: South @ 1-5 MPH <br> Precipation:0% </p>
+
+                            Wind: South @ 1-5 MPH <br> Precipation:0%</p>
                         <div id="joe"><img src="images/plan-images/sunshine-md.jpg" title="pictures that describes the temperature" alt=" joe photo" width="40"> </div>
                     </div>
 
 
-                    <div class="form">
+                    <div class="box2">
                         <p> Current Temp</p>
 
                         <p class="p-form"> Today's High and low <br> 16 F </p>
 
-                        <!-- <div id="img-pos">-->
+
+
                         <div>
 
 
-                            <p> 17 F /-3F </p>
+                            <p id="highAdLow"> 17 F/ -3</p>
                         </div>
                     </div>
 
 
-                    <div id="form2">
+                    <div class="box3">
                         <p> Hourly Forecast </p>
                         <p>7am OF</p>
                         <p>8am OF</p>
@@ -93,6 +98,7 @@
 
             </section>
 
+
         </main>
 
         <footer>
@@ -100,8 +106,8 @@
                 &copy; 2017, Fritz Février
             </div>
         </footer>
+       <!--      <script src="../js/franklin.js"></script>-->
     </div>
 </body>
-</html> 
 
-
+</html>

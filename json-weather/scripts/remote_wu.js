@@ -26,7 +26,7 @@ $(function () {
 
 
 
-            url: "http://api.wunderground.com/api/78335efd30710b80/geolookup/conditions/q/" + lat + "," + long +
+            url: "https://api.wunderground.com/api/78335efd30710b80/geolookup/conditions/q/" + lat + "," + long +
                 ".json",
             dataType: "jsonp",
             success: function (data) {

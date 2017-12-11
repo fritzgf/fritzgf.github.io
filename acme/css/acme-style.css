@@ -1,0 +1,278 @@
+/*This is the acme application stylesheet*/
+
+/********************************
+* Default Styles - Mobile First
+********************************/
+
+body {
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    background-image: url("/acme/images/site/background.jpg");
+    background-size: 100% 130%;
+    background-repeat: no-repeat;
+}
+
+body,
+caption,
+th,
+td,
+input,
+textarea,
+select,
+option,
+legend,
+fieldset,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size-adjust: 1.5;
+}
+
+/* *********** Base Styles ***********/
+
+/*The body inner-div*/
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+    background-color:#ffffff;
+    margin: 1.5em;
+}
+#content-title{
+    font-size: 20px;
+    
+}
+body{
+   
+}
+#content-wrapper{
+    max-width: 800px;
+    margin: 0 auto;
+     background-color:#ffffff;
+    padding-bottom: 5px;
+}
+/*	Background Images - use with Small screens */
+
+/*******************************
+* Page Navigation Styles
+*******************************/
+
+#page-nav {
+    background-color: red;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+#page-nav ul {
+    display: flex;
+    align-items: stretch;
+    height: 2.5em;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#page-nav ul li {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+}
+
+#page-nav a {
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+a:link {
+    color: #FFF;
+}
+
+a:visited {
+    color: #990033;
+}
+
+a:focus {
+    border-bottom: 1px solid;
+    background: #FFB02E;
+}
+
+a:hover {
+    border-bottom: 1px solid;
+    background: royalblue;
+}
+
+a:active {
+    background: #FFF;
+    color: royalblue;
+}
+
+/********************************
+* Main Content Styles
+********************************/
+
+#home-content {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+#rocket-item {
+    list-style: none;
+    text-align: left;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    color: red;
+    margin: .2em auto;
+    order: 2;
+    padding: 1em;
+}
+
+.description-item {
+    position: relative;
+    text-align: center;
+
+    order: 2;
+}
+
+#recipe-content {}
+
+.featured-image {
+    width: 100%;
+}
+
+#recipe-lists {
+    list-style: none;
+
+}
+
+/*The page footer*/
+
+#page-footer {
+    font-size: .7rem;
+    margin: 0;
+}
+
+#page-footer > * {
+    padding: 0 0 0 1em;
+}
+
+#page-footer li {
+    padding-right: 1em;
+
+}
+
+hr {
+    height: 5px;
+}
+#recipe-lists {
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+#product-review{
+    margin:6px;
+}
+
+#product-content ul{
+    list-style: none;
+}
+
+/*
+position for product
+*/
+
+/********************************
+* Medium Screen Styles
+********************************/
+
+@media (min-width: 41.67em) {
+
+    .wrapper {
+        margin: 1.5em;
+        padding-bottom: 2%;
+    }
+
+    /* nav bar at top */
+    #page-nav {
+        position: inherit;
+    }
+
+    .page-main {
+        border-top: none;
+    }
+
+    #home-content {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    #page-footer {
+        margin-bottom: 1%;
+    }
+
+    #recipe-item {
+        width: 40%;
+    }
+    
+    #product-review {
+        width: 50%;
+
+    }
+
+
+    #page-footer {
+        font-size: 1.25rem;
+    }
+
+}
+
+/********************************
+* Large Screen Styles
+********************************/
+
+@media (min-width: 66.7em) {
+    body {
+        font-size: 1.5vw;
+    }
+
+    .wrapper {
+        max-width: 1000px;
+        margin: 1.5em auto;
+    }
+
+
+    #page-main {
+        border-top: none;
+    }
+
+    .description-item {
+        position: relative;
+        text-align: center;
+    }
+
+    #rocket-item {
+        list-style: none;
+        text-align: left;
+        position: absolute;
+        top: 15%;
+        right: 10%;
+    }
+    #page-footer {
+        font-size: 12px;
+        text-align: center;
+    }
+   

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Home</title>
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+ <!-- <link rel="stylesheet" href="../json-weather/css/weather-style.css" type="text/css" media="screen">-->
+    	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+</head>
+<!-- *********************************************
+* Who Did You Collaborate With On This Assessment?
+* 1. Fritz Février
+* 2. Trevor
+* 3. Tony
+* 4.
+* 5.<a href="#" onclick="getData(' + val.zmw + ')"
+* ******************************************** -->
+<body>
+  <form method="get" action="//autocomplete.wunderground.com/aq" id="srchfrm">
+  <input type="search" name="query" id="query">
+  <input type="submit" name="submit" value="Search" id="send">
+</form>
+    
+    
+    <section id="searchResults">
+  <h2>Search Results</h2>
+</section>
+    
+     <script src="search.js"></script>
+</body>
+
+</html>

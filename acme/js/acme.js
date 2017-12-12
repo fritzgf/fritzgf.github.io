@@ -48,9 +48,11 @@ $(function () {
 function getData(linkName) {
     // Get the data from the local from acme folder
     if(linkName==="Home"){
-    document.getElementById("product-content").style.display = "none";
+        document.getElementById("product-content").style.display = "none";
 
-    document.getElementById("home-content").style.display = "block";
+        document.getElementById("home-content").style.display = "block";
+        
+        $("title").html(linkName + ' | ACME');
 
        }
     else{
@@ -65,7 +67,6 @@ function getData(linkName) {
         dataType: "json",
         success: function (data) {
             console.log(data);
-          /*  var prod_title = data[linkName].title_name;*/
             var name = data[linkName].name;
             var description = data[linkName].description;
             var manufacturer = data[linkName].manufacturer;
@@ -79,7 +80,7 @@ function getData(linkName) {
             console.log('price is: ' + price);
             console.log(' reviews is: ' + reviews);
             console.log("image is" + path);
-           /* $("title").html(prod_title + ' | ACME');*/
+            $("title").html(linkName + ' | ACME');
             $("#displayName").text(name);
             $("#displayImage").html("<img src=' " + path +" 'alt='anvil'>");
             $("#displayDescription").text(description);

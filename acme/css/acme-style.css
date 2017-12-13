@@ -192,7 +192,7 @@ figure {
 /*The page footer*/
 
 #page-footer {
-    font-size: .7re m;
+    font-size: .7em;
     margin: 0;
 }
 
@@ -255,7 +255,7 @@ margin-top: 1em;
 #displayPrice{
     margin-top:1em;
     color: #990033;
-    font-size: bold;
+    font-weight: bold;
     font-size: 2em;
     font-family: fantasy;
 }
@@ -384,4 +384,5 @@ margin-top: 1em;
     max-width: 35%;
     margin: 0;
     margin-bottom: 1em;
+}
 }

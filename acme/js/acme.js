@@ -1,3 +1,4 @@
+/*onload function*/
 $(function () {
     console.log("I work");
 

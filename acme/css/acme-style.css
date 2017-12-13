@@ -97,7 +97,7 @@ h6 {
 }
 
 
-a:link {
+#page-nav a:link {
     color: #FFF;
 }
 
@@ -184,10 +184,6 @@ figure {
     list-style: none;
 
 }
-#displayImage{
-    margin-right:40px;
-}
-
 
 /*The page footer*/
 
